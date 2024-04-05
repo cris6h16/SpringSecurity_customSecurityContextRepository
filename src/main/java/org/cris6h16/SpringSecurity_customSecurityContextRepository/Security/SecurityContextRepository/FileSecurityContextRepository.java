@@ -32,7 +32,7 @@ public class FileSecurityContextRepository implements SecurityContextRepository 
                 return deserializeSecurityContext(contextStr);
             }
         } catch (IOException e) {
-            e.printStackTrace(); // Handle the exception properly in your application
+            e.printStackTrace(); 
         }
         return SecurityContextHolder.createEmptyContext();
     }
@@ -44,7 +44,7 @@ public class FileSecurityContextRepository implements SecurityContextRepository 
             Files.writeString(filePath, contextStr);
         } catch (IOException e) {
             System.out.printf("Failed to save the security context to file %s%n", filePath.toAbsolutePath());
-            e.printStackTrace(); // Handle the exception properly in your application
+            e.printStackTrace(); 
         }
     }
 
