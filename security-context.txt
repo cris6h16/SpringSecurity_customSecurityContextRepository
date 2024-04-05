@@ -1,0 +1,1 @@
+{"authentication":{"authorities":[{"authority":"ROLE_USER"}],"details":null,"authenticated":true,"principal":{"password":null,"username":"cris6h16","authorities":[{"authority":"ROLE_USER"}],"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true,"enabled":true},"credentials":null,"name":"cris6h16"}}
